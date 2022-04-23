@@ -1,0 +1,1642 @@
+
+/* header */
+.flag {
+    float: right;
+}
+
+.flag img {
+    padding-right: 10px;
+    padding-top: 12px;
+}
+
+.cart-contents {
+    padding-right: 50px;
+    position: relative;
+    top: 5px;
+}
+
+.quantity-item {
+    background-color: red;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+    left: 17px;
+    z-index: 3;
+}
+
+.cart-contents i {
+    font-size: 20px;
+    color: gray;
+    position: absolute;
+    top: 5px;
+}
+
+/* menu pc */
+.hearder-menu {
+    width: 100%;
+    padding-top: 45px;
+    position: relative;
+}
+
+.img_logo {
+    width: 27%;
+}
+
+.menu-pc {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+}
+
+.menu-pc li {
+    padding: 8px;
+}
+
+.menu-pc a {
+    color: #0F4C81;
+}
+
+.hearder-menu-mobile {
+    display: none;
+}
+
+/* menu mobile */
+@media(max-width: 1024px) {
+    .hearder-menu,
+    .flag {
+        display: none;
+    }
+
+    .hearder-menu-mobile {
+        padding-top: 12px;
+        display: block;
+    }
+
+    .tab-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .img_logo {
+        width: 60%;
+    }
+
+    .tab-mobile i {
+        font-size: 30px;
+        color: #0F4C81;
+    }
+
+    .cart-contents {
+        left: 210px;
+    }
+
+    .cart-contents i {
+        top: -18px;
+        right: 25px;
+    }
+    
+    .menu-mobile {
+        display: none;
+        margin-top: 25px;
+        text-align: center;
+        line-height: 2;
+        font-size: 18px;
+        text-transform: uppercase;
+        padding-left: 0;
+    }
+
+    .menu-mobile a {
+        color: #0F4C81;
+        font-weight: bold;
+    }
+}
+
+@media(max-width: 844px) {
+    .cart-contents {
+        top: 0px;
+        left: 95px;
+    }
+}
+
+@media(max-width: 812px) {
+    .cart-contents {
+        top: 3px;
+        left: 95px;
+    }
+}
+
+@media(max-width: 736px) {
+    .cart-contents {
+        left: 4px;
+    }
+}
+
+@media(max-width: 450px) {
+    .cart-contents i {
+        position: absolute;
+        top: -20px;
+        right: 27px;
+    }
+}
+
+/* body trang home */
+.intro {
+    margin-top: 30px;
+    position: relative;
+    animation-name: animation-img3;
+    animation-duration: 4s;
+}
+
+.carousel_1 img {
+    filter: brightness(0.5);
+}
+
+.owl-dots,
+.display-arrow {
+    display: none;
+}
+
+.header-intro {
+    color: #FFFFFF;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    z-index: 1;
+}
+
+#slider-home {
+	height: 1000px;
+	object-fit: cover;
+}
+
+.header-intro h1 {
+    width: 700px;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.list-intro {
+    font-size: 18px;
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+
+.header-intro a {
+    background-color:#042F4B;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 20px 70px;
+}
+
+.background-intro {
+    background-color:white;
+    height: 583px;
+    box-shadow: 0px 5px 15px -10px rgb(6 6 6);
+}
+
+.background-intro img {
+    width: 100%;
+    padding: 15px;
+}
+
+.content-intro {
+    background-color: #F6F6F6;
+    padding: 31px;
+}
+
+.content-intro h1 {
+    display: block;
+    color: red;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.content-intro p {
+    display: block;
+    height: 150px;
+    font-size: 18px;
+    color: #6C6C6C;
+    text-align: justify;
+}
+
+.content-intro a {
+    font-weight: bold;
+    color: #0F4C81;
+    font-size: 17px;
+    padding-bottom: 3%;
+}
+
+.background-intro2 {
+    background: #042F4B;
+    width: 100%;
+    height: 583px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media(min-width: 1400px) {
+	.background-intro2 {
+	    height: 599px;
+	}
+}
+
+.background-intro2 input {
+    width: 85%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.background-intro2 textarea {
+    color: #B2B2B2;
+    width: 85%;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.background-intro2 input::placeholder {
+    color: #B2B2B2;
+}
+
+#button-submit {
+    background-color:#EF4100;
+    color: white;
+    width: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 0 33px;
+    margin-left: 70px;
+    margin-right: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.img-form {
+    margin-top: -195px;
+    margin-left: 79px;
+}
+
+.position-intro1 {
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+    animation-name: animation-img;
+    animation-duration: 2s;
+
+}
+
+.position-intro2 {
+    margin-top: 65px;
+    margin-bottom: 20px;
+    animation-name: animation-img2;
+    animation-duration: 2s;
+}
+
+@media(max-width: 1024px) {
+    .intro {
+        margin-top: 16px;
+    }
+
+    .img-form {
+        margin-left: 47px;
+    }
+}
+
+@media(max-width: 844px) {
+    .position-intro1 {
+        margin-top: 0px;
+    
+    }
+}
+
+@media(max-width: 812px) {
+    .content-intro h1 {
+        overflow: unset;
+        white-space: unset;
+        text-overflow:  unset;
+    }
+}
+
+/* giới thiệu sản phẩm */
+.background-introProduct {
+    background-color:#042F4B;
+    padding-top: 20px;
+    padding-bottom: 6%;
+}
+
+.bg-text {
+    font-size: 220px;
+    font-weight: bold;
+    text-align: right;
+    color: #FBFBFB;
+    opacity: 0.1;
+}
+
+.display-bg {
+    margin-top: -215px;
+    position: relative;
+    z-index: 2;
+}
+
+.text1 {
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+}
+
+.text2 {
+    color: #00AEEF;
+    font-size: 39px;
+}
+
+.carousel_2 {
+    padding-top: 50px;
+}
+
+.owl-carousel,
+.owl-item img {
+    height: auto;
+}
+
+.box-product {
+    background-color: white;
+    height: 390px;
+}
+
+.box-product h1 {
+    display: block;
+    height: 40px;
+    padding-left: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.box-product a {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box-product p {
+    color: #EF4100;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 50%;
+}
+
+.owl-prev {
+    position: absolute;
+    left: -5%;
+}
+
+.owl-next {
+    position: absolute;
+    right: -5%;
+}
+
+.owl-prev,.owl-next {
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: unset;
+}
+
+.btn-prev,
+.btn-next {
+    color: white;
+    font-size: 33px;
+}
+
+@media(max-width: 991px) {
+    .background-introProduct {
+        padding-top: 50px;
+    }
+
+    .bg-text {
+        display: none;
+    }
+    
+    .display-bg {
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 844px) {
+    .background-intro {
+        margin-bottom: 320px;
+    }
+}
+
+@media(max-width: 450px) {
+    .box-product h1 {
+        overflow: unset;
+        white-space: unset;
+        text-overflow: unset;
+    }
+}
+
+/* giới thiệu công ty */
+.intro-company {
+    background-color: #F8F8F8;
+    text-align: justify;
+    padding-top: 80px;
+    padding-bottom: 7%;
+}
+
+.intro-company h1 {
+    color: #EF4100;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.intro-company2 {
+    margin-top: 20px;
+    line-height: 1.7;
+    animation-name: animation-img3;
+    animation-duration: 3s;
+}
+
+.intro-company2 p {
+    font-size: 18px;
+    padding-right: 173px;
+}
+
+.intro-company3 {
+    animation-name: animation-img4;
+    animation-duration: 3s;
+}
+
+.intro-news {
+    background-color: #ECECEC;
+    padding-top: 80px;
+    padding-bottom: 3%;
+}
+
+.intro-news h2 {
+    color: gray;
+}
+
+.text3 {
+    color: #0F4C81;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.intro-news h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.content-introNews {
+    padding-top: 40px;
+}
+
+.content-introNews img {
+    height: 385px;
+    object-fit: cover;
+}
+
+.content-introNews2 {
+    text-align: justify;
+}
+
+.text4 {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text4 a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text4 a:hover {
+    color: #0F4C81;
+}
+
+.text5 {
+    color:#6C6C6C;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.text6 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text6 a {
+    color: #0F4C81;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.owl-carousel, .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.btn-prev2,
+.btn-next2 {
+    color: black;
+    font-size: 33px;
+}
+
+@media(max-width: 450px) {
+    .text4 {
+        overflow: unset;
+        white-space: unset;
+        text-overflow: unset;
+    }
+}
+
+/* đối tác */
+.position-partner {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.carousel_4 img {
+    height: 120px;
+    object-fit: contain;
+}
+
+@media(max-width: 1366px) {
+    .content-intro p {
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 1024px) {
+    #button-submit {
+        padding: 0 20px;
+    }
+
+    .box-product {
+        height: 330px;
+    }
+
+    .content-intro p {
+        margin-bottom: 90px;
+    }
+
+    .box-product p {
+        margin-left: 40%;
+    }
+
+    .intro-company2 p {
+        padding-right: 50px;
+    }
+
+    .btn-prev,
+    .btn-next,
+    .btn-prev2,
+    .btn-next2 {
+        display: none;
+    }   
+}
+
+@media(max-width: 844px) {
+    .background-intro2 {
+        margin-top: 40px;
+    }
+
+    .background-intro2 input,
+    .background-intro2 textarea {
+        width: 60%;
+    }
+
+    #button-submit {
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    
+    .box-product {
+       height: 380px;
+    }
+}
+
+@media(max-width: 812px) {
+    .background-intro2 {
+        margin-top: 30px;
+    }
+
+    .background-intro2 input,
+    .background-intro2 textarea {
+        width: 60%;
+    }
+
+    #button-submit {
+        margin-left: 140px;
+    }
+
+    .img-form {
+        margin-left: 314px;
+    }
+
+    .header-intro h1 {
+        width: 650px;
+        font-size: 40px;
+    }
+
+    .background-intro {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .content-intro p {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .box-product {
+        height: 420px;
+    }
+
+    .box-product p {
+        margin-left: 60%;
+    }
+
+    .intro-company h1 {
+        padding-left: 10px;
+        letter-spacing: -1px;
+    }
+
+    .intro-company2 p {
+        padding-right: 0;
+    }
+
+    .intro-company3 {
+        margin-top: 50px;
+    }
+
+    .intro-company3 img {
+        width: 100%;
+    }
+
+    .text5 {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 736px) {
+    .header-intro h1 {
+        width: 100%;
+    }
+
+    .box-product {
+        height: 340px;
+    }
+
+    .box-product p {
+        margin-left: 48%;
+    }
+}
+
+@media(max-width: 450px) {
+    .background-intro2 input,
+    .background-intro2 textarea {
+        width: 85%;
+    }
+
+    #button-submit {
+        width: 85%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-form {
+        display: none;
+    }
+
+    .header-intro {
+        top: 6%;
+    }
+
+    .header-intro h1 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .list-intro {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+    .header-intro a {
+        padding: 10px 35px;
+    }
+
+    .position-intro1 {
+        margin-top: 0;
+    }
+
+    .content-intro p {
+        margin-bottom: 50px;
+        font-size: 19px;
+        margin-top: 30px;
+    }
+
+    .box-product {
+        height: 440px;
+    }
+
+    .box-product p {
+        margin-left: 65%;
+    }
+
+    .text5 {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 375px) {
+    .header-intro h1 {
+        font-size: 22px;
+    }
+
+    .content-intro p {
+        margin-bottom: 67px;
+    }
+
+    .header-intro a {
+        padding: 5px 35px;
+    }
+}
+
+/* body page intro */
+.bg-intro {
+    margin: 70px 0;
+}
+
+.bg-intro h1 {
+    color: #00AEEF;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.bg-intro p {
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.bg-intro img {
+    width: 100%;
+    height: auto;
+}
+
+.list-pageIntro {
+    padding-left: 0;
+    line-height: 2;
+    color: black;
+    font-size: 16px;
+}
+
+@media(max-width: 450px) {
+    .list-pageIntro {
+        margin-top: 20px;
+    }
+}
+
+/* body trang hoạt động */
+.content-action {
+    margin-bottom: 50px;
+}
+
+.content-action img {
+    width: 100%;
+    height: 157px;
+    object-fit: cover;
+}
+
+.text-action a {
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
+
+.text-action2 p {
+    color: black;
+    text-align: justify;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+
+.pagination a {
+    color: red;
+    padding: 8px;
+}
+
+.pagination span {
+    color: blue;
+    padding: 8px;
+}
+
+.pagination a:hover {
+    color: blue;
+    padding: 8px;
+}
+
+@media(max-width: 991px) {
+    .content-action {
+        margin-bottom: 20px;
+    }
+
+    .content-action img {
+        height: auto;
+    }
+
+    .text-action2 {
+        margin-bottom: 70px;
+    }
+}
+
+/* body trang đối tác */
+.bg-partner {
+    margin: 70px 0;
+}
+
+.text-partner {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.bg-partner2 img {
+    margin-bottom: 50px;
+}
+
+@media(max-width: 991px) {
+    .bg-partner img {
+        width: 100%;
+    }
+}
+
+/* body trang liên hệ */
+.bg-contact {
+    margin-bottom: 50px;
+}
+
+.map-address {
+    width: 100%;
+} 
+
+.bg-form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.bg-form h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 35px;
+}
+
+.bg-form input,
+.bg-form textarea {
+    width: 100%;
+    color: #6C6C6C;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.bg-form input {
+    height: 45px;
+}
+
+#btn-submit {
+    width: 25%;
+    padding: 0;
+}
+
+@media(max-width: 991px) {
+    .bg-form {
+        width: 100%;
+    }
+
+    #btn-submit {
+        width: 35%;
+    }
+}
+
+/* body trang tin tức news */
+.background-news {
+    margin-bottom: 60px;
+}
+
+.background-news2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.text-news {
+    color: #00AEEF;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+.text-news3 {
+    font-size: 18px;
+    color: #0F4C81;
+    margin-bottom: 30px;
+}
+
+.content-news {
+    width: 50%;
+    padding-top: 0;
+    padding-right: 25px;
+}
+
+.content-news img {
+    width: 97%;
+    height: 260px;
+    object-fit: cover
+}
+
+.text-news2 {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.action-form {
+    width: 100%;
+    border: 1px solid silver;
+    padding: 12px;
+}
+
+.search-field {
+    border: none;
+}
+
+.sbutton {
+    border: none;
+    background-color: white;
+    float: right;
+}
+
+.list-news {
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.list-news img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    padding-right: 20px;
+}
+
+.list-news a {
+    color: black;
+    font-size: 18px;
+}
+
+.background-comment h2{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.background-comment textarea {
+    width: 100%;
+    height: 200px;
+    padding-left: 20px;
+    border: 1px solid silver;
+    font-size: 17px;
+}
+
+.background-comment input {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid silver;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+#submit-comment {
+    background-color: white;
+    width: 25%;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.news-single {
+    text-align: justify;
+}
+
+.news-single img {
+    width: 100%;
+    height: auto;
+}
+
+.news-single div[style] {
+    width: 100% !important;
+}
+
+@media(max-width: 991px) {
+    .content-news {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 25px;
+    }
+}
+
+@media(max-width: 450px) {
+    .content-news {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .content-news img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* body trang sản phẩm */
+.page-product {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.text7 {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text8 {
+    color: #00AEEF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.page-product2 {
+    margin-top: 70px;
+    box-shadow: 0px 5px 15px -10px rgb(6 6 6);
+}
+
+.page-product2 img {
+    width: 100%;
+    height: auto;
+}
+
+@media(max-width: 1024px) {
+    .text8 {
+        margin-bottom: 0;
+    }
+
+    .page-product2 {
+        height: auto;
+    }
+}
+
+@media(max-width: 812px) {
+    .page-product2 img {
+        margin-bottom: 20px;
+    }
+
+    .page-product2 a {
+        font-size: 25px;
+    }
+
+    .page-product2 p {
+        font-size: 25px;
+        margin-left: 70%;
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 450px) {
+    .page-product2 p {
+        margin-left: 50%;
+    }
+}
+
+
+/* body trang chi tiết sản phẩm woocommerce */
+.woocommerce-product-gallery__image img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-control-thumbs {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex-control-thumbs img {
+    width: 260px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.posted_in {
+    display: none;
+}
+
+.content-product p {
+    color: #3C3C3C;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.text9 {
+    color: #3C3C3C;
+    font-size: 18px;
+}
+
+.text-price {
+    color: #EF4100;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.btn-cart {
+    padding: 10px 30px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.color-text a {
+    color: #3C3C3C;
+}
+
+.quantity input {
+    background-color: #D7D7D7;
+    width: 40%;
+    height: 35px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-buy {
+    background-color: #EF4100;
+    border: none;
+    color: white;
+    padding: 10px 45px;
+    border-radius: 5px;
+}
+
+.connection-product {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.connection-product h2 {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.box-product1 {
+    box-shadow: 0px 5px 15px -10px rgb(6 6 6);
+}
+
+.btn-prev3,
+.btn-next3 {
+    color: gray;
+    font-size: 35px;
+}
+
+@media(max-width: 1024px) {
+    .flex-control-thumbs img {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 991px) {
+    .btn-prev3,
+    .btn-next3 {
+        display: none;
+    }
+
+    .text9 {
+        margin-top: 30px;
+    }
+}
+
+/* body trang giỏ hàng cart */
+.bg-cart {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.img-cart img {
+    width: 60%;
+}
+
+#coupon_code {
+    width: 130px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.button-cart {
+    background-color: #EF4100;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.button-cart:hover {
+    color: white;
+}
+
+@media(max-width: 991px) {
+    .bg-totals {
+        margin-top: 30px;
+    }
+}
+
+/* body trang thanh toán check out*/
+.bg-checkout {
+    margin-bottom: 70px;
+}
+
+.text-checkout,
+.woocommerce-additional-fields h3 {
+    margin: 40px 0;
+}
+
+.input-checkout label {
+    margin: 10px 0;
+}
+
+.input-checkout input {
+    height: 40px;
+    border: 1px solid silver;
+    padding-left: 15px;
+    color: silver;
+}
+
+#order_comments {
+    height: 160px;
+    padding-left: 15px;
+    padding-top: 7px;
+    color: silver;
+    border: 1px solid silver;
+}
+
+#place_order{
+    background-color: #EF4100;
+}
+
+/* body trang cảm ơn */
+.woocommerce-order {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.text10 {
+    font-size: 18px;
+    margin-bottom: 35px;
+    color: #00AEEF;
+}
+
+/*body trang intro project trong home*/
+.bg-intro-projects {
+    margin-top: 60px;
+}
+
+.bg-intro-projects2 h1 {
+    color: red;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.bg-intro-projects2 h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.bg-intro-projects2 p {
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+
+.img_intro1 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#img_intro2 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.btn-projects1,
+.btn-projects2 {
+    font-size: 30px;
+    color: silver;
+}
+
+.btn-projects1 i {
+    padding-left: 50px;
+}
+
+.btn-projects2 i {
+    padding-right: 50px;
+}
+
+/* footer */
+.background-footer {
+    background-color:#ECECEC;
+    padding-top: 70px;
+    padding-bottom: 10%;
+    position: relative;
+}
+
+.map-footer {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.background-footer h4 {
+    color: gray;
+}
+
+.text-footer1 {
+    color: #0F4C81;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.background-footer h1 {
+    font-weight: bold;
+    font-size: 33px;
+    width: 600px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.content-address {
+    background-color: white;
+    height: 475px;
+    padding: 44px;
+}
+
+.content-address h2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.list-address {
+    margin-top: 30px;
+    padding-left: 0;
+    line-height: 2;
+}
+
+.list-address h3 {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.list-address p {
+    font-size: 18px;
+}
+
+.list-address a {
+    font-size: 18px;
+    color: black;
+}
+
+.text-footer2 {
+    color: black;
+    font-size: 18px;
+    line-height: 3;
+}
+
+.icon1 {
+    font-size: 48px;
+    color: #E93030;
+}
+
+.icon2 {
+    font-size: 48px;
+    color: #1388D4;
+    padding-left: 10px;
+}
+
+.background-footer2 {
+    background-color: #042F4B;
+    padding-bottom: 1%;
+}
+
+.list-footer {
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-footer li {
+    margin-top: 30px;
+}
+
+.list-footer p {
+    color: white;
+    font-size: 15px;
+    line-height: 1;
+    margin-top: 20px;
+}
+
+.list-footer img {
+    width: 80%;
+    margin-top: 7px;
+}
+
+.button-footer {
+    width: 3%;
+    position: fixed;
+    right: 32px;
+    bottom: 165px;
+    z-index: 100;
+}
+
+@media(max-width: 1180px) {
+    .content-address {
+        height: 580px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .content-address {
+        height: 510px;
+        padding: 30px;
+    }
+
+    .list-footer p {
+        font-size: 18px;
+        margin-top: 0;
+        line-height: 1.7;
+    }
+
+    .button-footer {
+        width: 5%;
+        bottom: 198px;
+    }
+}
+
+@media(max-width: 844px) {
+    .content-address {
+        margin: 30px 0;
+    }
+}
+
+
+@media(max-width: 812px) {
+    .button-footer {
+        display: none;
+    }
+
+    .content-address {
+        margin: 20px 0;
+        height: 375px;
+    }
+
+    .list-footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 450px) {
+    .background-footer h1 {
+        width: 100%;
+    }
+
+    .content-address {
+        height: 500px;
+    }
+}
+
+/* thuộc tính animation */
+/* ---------- */
+@keyframes animation-img {
+    0% {
+        opacity: 0;
+        transform: translate(-100px, 0);
+    }
+
+    80% {
+        transform: translate(0, 0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+} 
+
+@keyframes animation-img2 {
+    0% {
+        opacity: 0;
+        transform: translate(100px, 0);
+    }
+
+    80% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+} 
+
+@keyframes animation-img3 {
+    0% {
+        opacity: 0;
+        transform: translate(0, -100px);
+    }
+
+    80% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+} 
+
+@keyframes animation-img4 {
+    0% {
+        opacity: 0;
+        transform: translate(0, 100px);
+    }
+
+    80% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+} 
